@@ -16,7 +16,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Afsana</span>
+            Hi, I am <span className='text-[#915EFF]'>Afsana</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop fullstack <br className='sm:block hidden' />
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
@@ -44,6 +44,7 @@ const Hero = () => {
           </div>
         </a>
       </div>
+      <ComputersCanvas />
     </section>
   );
 };
